@@ -1,0 +1,13 @@
+{
+  "name": "clothing-store-app",
+  "version": "1.0.0",
+  "scripts": {
+    "mobile": "cd mobile && npm start",
+    "backend": "",
+    "start": ""
+  },
+  "keywords": [],
+  "author": "farrelio",
+  "license": "ISC",
+  "description": ""
+}
