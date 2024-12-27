@@ -3,11 +3,31 @@
   "version": "1.0.0",
   "scripts": {
     "mobile": "cd mobile && npm start",
-    "backend": "",
+    "backend": "nodemon backend/server.js",
     "start": ""
   },
   "keywords": [],
   "author": "farrelio",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "module-alias": "^2.2.3",
+    "mongoose": "^8.8.3",
+    "nodemon": "^3.1.7"
+  },
+  "_moduleAliases": {
+    "@app": "./backend/app.js",
+    "@config": "./backend/config",
+    "@controllers": "./backend/controllers",
+    "@middlewares": "./backend/middlewares",
+    "@models": "./backend/models",
+    "@routes": "./backend/routes",
+    "@utils": "./backend/utils"
+  }
 }
